@@ -38,7 +38,7 @@ public enum SignatureAlgorithm: String {
 /// - direct: [Direct Encryption with a Shared Symmetric Key](https://tools.ietf.org/html/rfc7518#section-4.5)
 public enum AsymmetricKeyAlgorithm: String {
     case RSA1_5 = "RSA1_5"
-    case RSAOAEP = "RSAES-OAEP"
+    case RSAOAEP = "RSA-OAEP"
     case direct = "dir"
 }
 
